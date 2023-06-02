@@ -43,22 +43,85 @@ setInterval(changeGallery, 4000);
 //Add autumatic descriptions to the photos using jquery
 (function (){
     var desc_image = [
-        "August, 2021. Zelenogradsk, Ocean breakwaves",
-        "August, 2021. Zelenogradsk. Sunset and the surfing at the Baltic Sea 1/3.",
-        "August, 2021. Zelenogradsk. Sunset and the surfing at the Baltic Sea 2/3.",
-        "August, 2021. Zelenogradsk. Sunset and the surfing at the Balric Sea 3/3.",
-        "August, 2021. Zelenogradsk. Summer sunset at the Baltic Sea.",
-        "August, 2021. Zelenogradsk. Summer kitesurfing at the shore.",
-        "August, 2019. Lysefjord, Norway. Seven Sisters waterfall in the evening 1/2.",
-        "August, 2019. Lysefjord, Norway. Seven Sisters waterfall in the evening 2/2.",
-        "August, 2019. Norway. Spectacular fjord 1/2.",
-        "August, 2019. Norway. Spectacular fjord 2/2.",
-        "August, 2021. Zelenogradsk. Summer kitesurfing at the shore."
+        "August 2021, Zelenogradsk. Amazing sunset and slightly churning sea",
+        "August 2021, Zelenogradsk. The Baltic Sea breakwaters",
+        "August 2021, Zelenogradsk. Waiting for the waves on the evening Baltic Sea",
+        "August 2021, Zelenogradsk. After riding the waves on the evening Baltic Sea",
+        "August 2021, Zelenogradsk. Watch the Balric Sea sunset",
+        "August 2021, Zelenogradsk. The last rays of the setting sun break through the clouds",
+        "August 2021, Zelenogradsk. Summer kitesurfing",
+        "August 2021, Zelenogradsk. Watching the kitesurfing",
+        "August 2022, The Curonian (Courish) Spit. Alone with the sea",
+        "August 2022, The Curonian (Courish) Spit. Looking for a way",
+        "August 2022, The Curonian (Courish) Spit. The last trace",
+        "August 2019, Lysefjord (Norway). Seven Sisters waterfall during the sunset 1/2",
+        "August 2019, Lysefjord (Norway). Seven Sisters waterfall during the sunset 2/2",
+        "August 2019, Sognefjorden (Norway) 1/2",
+        "August 2019, Sognefjorden (Norway) 2/2",
+        "August 2019, Nærøyfjorden (Norway). A place hidden from all eyes",
+        "August 2019, Sognefjorden (Norway). On the way to Bergen",
+        "August 2019, Ålesund (Norway). Molja Lighthouse",
+        "August 2019, Stavanger (Norway). Quality Airport Hotel by the runway",
+        "August 2019, Stavanger (Norway). View of the colorful houses on Mellomstraen street",
+        "August 2019, Stavanger (Norway). Fountain on the lake in Byparken",
+        "August 2019, Stavanger (Norway). Cruise ship hiding behind the houses",
+        "August 2019, Bergen (Norway). View of the Vestre Torggaten",
+        "August 2019, Ålesund (Norway). Aksla Viewpoint",
+        "August 2019, Ålesund (Norway). Walking through the streets Notenesgata and Skansegata 1/3",
+        "August 2019, Ålesund (Norway). Walking through the streets Notenesgata and Skansegata 2/3",
+        "August 2019, Ålesund (Norway). Walking through the streets Notenesgata and Skansegata 3/3",
+        "August 2019, Lysefjord (Norway). Breathtaking Preikestolen",
+        "Juli 2022, Tula. The sky above",
+        "June 2019, Tula. Touch and attraction"
     ],
     i = 0;
     setInterval(function(){
         $("#desc_img").fadeOut(100,function(){
             $(this).html(desc_image[(i = (i + 1) % desc_image.length)]).fadeIn(100);
+        });
+    }, 4000);
+})();
+
+//STEP 6 
+//Add autumatic pagination to the photos using jquery
+
+(function (){
+    var count_image = [
+        "1 / 30",
+        "2 / 30",
+        "3 / 30",
+        "4 / 30",
+        "5 / 30",
+        "6 / 30",
+        "7 / 30",
+        "8 / 30",
+        "9 / 30",
+        "10 / 30",
+        "11 / 30",
+        "12 / 30",
+        "13 / 30",
+        "14 / 30",
+        "15 / 30",
+        "16 / 30",
+        "17 / 30",
+        "18 / 30",
+        "19 / 30",
+        "20 / 30",
+        "21 / 30",
+        "22 / 30",
+        "23 / 30",
+        "24 / 30",
+        "25 / 30",
+        "26 / 30",
+        "27 / 30",
+        "28 / 30",
+        "29 / 30",
+        "30 / 30",
+    ],
+    i = 0;
+    setInterval(function(){
+        $("#count_container").fadeOut(100,function(){
+            $(this).html(count_image[(i = (i + 1) % count_image.length)]).fadeIn(100);
         });
     }, 4000);
 })();
