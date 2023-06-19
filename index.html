@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.i0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Moments Slider Gallery</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -11,43 +11,28 @@
 <body>
     <h1>Through the moments</h1>
     <div class="gallery_container" id="gallery">
-        <img src="./images/img1.jpg">
-        <img src="./images/img2.jpg">
-        <img src="./images/img3.jpg">
-        <img src="./images/img4.jpg">
-        <img src="./images/img5.jpg">
-        <img src="./images/img6.jpg">
-        <img src="./images/img7.jpg">
-        <img src="./images/img8.jpg">
-        <img src="./images/img9.jpg">
-        <img src="./images/img10.jpg">
-        <img src="./images/img11.jpg">
-        <img src="./images/img12.jpg">
-        <img src="./images/img13.jpg">
-        <img src="./images/img14.jpg">
-        <img src="./images/img15.jpg">
-        <img src="./images/img16.jpg">
-        <img src="./images/img17.jpg">
-        <img src="./images/img18.jpg">
-        <img src="./images/img19.jpg">
-        <img src="./images/img20.jpg">
-        <img src="./images/img21.jpg">
-        <img src="./images/img22.jpg">
-        <img src="./images/img23.jpg">
-        <img src="./images/img24.jpg">
-        <img src="./images/img25.jpg">
-        <img src="./images/img26.jpg">
-        <img src="./images/img27.jpg">
-        <img src="./images/img28.jpg">
-        <img src="./images/img29.jpg">
-        <img src="./images/img30.jpg">
 
-        <div class="count_container" id="count_container">1 / 30</div>
+        <!-- <div class="arrow_button"> -->
+        <a id="nav-button--prev" class="slider__nav-button"></a>
+        <!-- </div> -->
+
+        <img id="slide_img" src="">
+
+        <!-- <div class="arrow_button"> -->
+        <a id="nav-button--next" class="slider__nav-button"></a>
+        <!-- </div> -->
+
+        <div class="count_container" id="count_container"></div>
 
         <div class="descripton_container" id="description_container">
-            <div class="desc_img" id="desc_img">August 2021, Zelenogradsk. Amazing sunset and slightly churning sea</div>
+            <div class="desc_img" id="desc_img"></div>
         </div>
     </div>
+    <div class="controls">
+        <div class="move" id="move">Enable Autosliding</div>
+        <div class="stop" id="stop">Disable Autosliding</div>
+    </div>
+<!-- <script src="script.js""></script> -->
 <script src="script.js""></script>
 </body>
 </html>
