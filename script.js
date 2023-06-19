@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", () => {
         "./images/img40.jpg", 
         "./images/img41.jpg", 
         "./images/img42.jpg", 
-        "./images/img43.jpg", 
+        "./images/img43.JPG", 
         "./images/img44.jpg", 
         "./images/img45.jpg", 
     ];
