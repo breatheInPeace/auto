@@ -106,7 +106,7 @@ h1 {
 
 .descripton_container {
     position: absolute;
-    padding: 0.15rem 0.5rem;
+    padding: 0.15rem 0.35rem;
     width: max-content;
     text-align: center;
     left: 50%;
@@ -119,7 +119,7 @@ h1 {
 
 .desc_img {
     color: aliceblue;
-    font-size: 0.435rem;
+    font-size: 0.485rem;
     font-family: 'Proza Libre', sans-serif;
     text-shadow: 0px 0px 3px rgba(0,255,255, 0.9);
 }
@@ -194,7 +194,7 @@ h1 {
         font-size: 0.9rem;
     }
     .desc_img {
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
     .slider__nav-button {
         height: 40px;
